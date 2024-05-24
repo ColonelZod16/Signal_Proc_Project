@@ -1,15 +1,17 @@
 
-# Distance and Direction Estimation
+# Library Management System
 
-Determining the distance and direction of person while running/walking using inertial sensors
-of a Mobile Phone.
+In the contemporary digital age, efficient management systems are crucial for the smooth functioning of
+libraries. This mini project aims to design and develop an Library Management System (LMS)
+that not only provides basic functionalities of a library but also ensures data security and concurrency
+control. The system employs socket programming to enable multiple clients to access the library
+database concurrently. Additionally, system calls are utilized extensively for various operations such as
+process management, file handling, file locking, multithreading, and interprocess communication,
+ensuring optimal performance and resource utilization.
 
-This project uses sensors like Magnetometer, Gyroscope to get the yaw angles which is used to deter-
-mine the orientation of an object with respect to Z-axis.
-To determine the distance travelled by the person while walking/running accelerometer data was used.
-Low pass filter to filter out noise was also used.
-The results were then compared with GPS to measure the accuracy.
-## Direction Theory
+The proliferation of digital technologies has revolutionized the way libraries operate, necessitating the
+adoption of robust management systems to streamline processes and enhance user experience. TheLibrary Management System (LMS) proposed in this project is designed to address these needs by offering a interface coupled with advanced functionalities.
+## IMPLEMENTATION
 
 Yaw, pitch, and roll angles are commonly used to describe the orientation of an object in three-
 dimensional space. Here’s a brief explanation of each angle:
@@ -30,7 +32,6 @@ object tilts sideways.
 
 While walking or running, the motion primarily involves changes in the yaw angle, as the direction of
 movement changes. Pitch and roll angles may also change to some extent)
-\horizontal
 
 
 
