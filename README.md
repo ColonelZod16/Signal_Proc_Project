@@ -30,7 +30,6 @@ object tilts sideways.
 
 While walking or running, the motion primarily involves changes in the yaw angle, as the direction of
 movement changes. Pitch and roll angles may also change to some extent)
-\horizontal
 
 
 
